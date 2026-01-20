@@ -1,0 +1,11 @@
+# Lambda-compatible requirements
+# Use these versions for AWS Lambda deployment
+# Note: pyarrow and pandas are large - consider using Lambda Layers
+
+pyarrow==14.0.1
+pandas==2.1.4
+psycopg2-binary==2.9.9
+boto3==1.34.0
+
+# Note: boto3 is pre-installed in Lambda, but specifying version ensures compatibility
+
